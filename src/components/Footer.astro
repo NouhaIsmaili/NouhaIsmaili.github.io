@@ -1,6 +1,5 @@
 ---
 import Icon from './Icon.astro';
-const currentYear = new Date().getFullYear();
 ---
 
 <footer>
@@ -9,7 +8,7 @@ const currentYear = new Date().getFullYear();
 			Designed & Developed in Tunisia with <a href="https://astro.build/">Astro</a>
 			<Icon icon="rocket-launch" size="1.2em" />
 		</p>
-		<p>&copy; {currentYear} Nouha Ismaili</p>
+		<p>&copy; {new Date().getFullYear()} Nouha Ismaili</p>
 	</div>
 </footer>
 <style>
