@@ -1,16 +1,17 @@
 ---
-import Icon from './Icon.astro';
+import Icon from './Icon.astro'; // Correct the path to the Icon component file if needed
 ---
 
 <footer>
 	<div class="group">
 		<p>
 			Designed & Developed in Tunisia with <a href="https://astro.build/">Astro</a>
-			<Icon icon="rocket-launch" size="1.2em" />
+			<Icon icon="rocket-launch" size="1.2em" /> {/* Correct the usage of the Icon component */}
 		</p>
 		<p>&copy; {new Date().getFullYear()} Nouha Ismaili</p>
 	</div>
 </footer>
+
 <style>
 	footer {
 		display: flex;
@@ -25,7 +26,8 @@ import Icon from './Icon.astro';
 
 	footer a {
 		color: var(--gray-400);
-		text-decoration: 1px solid underline transparent;
+		text-decoration: underline;
+		text-decoration-color: transparent;
 		text-underline-offset: 0.25em;
 		transition: text-decoration-color var(--theme-transition);
 	}
