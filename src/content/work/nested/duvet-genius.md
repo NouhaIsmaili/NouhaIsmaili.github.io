@@ -7,7 +7,7 @@ description: |
 tags:
   - Design
   - Dev
-  - Branding
+  - CRUD
 ---
 
 This work was created during the initiation internship period and corresponds to a simple CRUD (Create, Read, Update, Delete) that implements product and user management operations. During this internship, I was involved in all stages of the development process, including design, programming, and testing. I worked in collaboration with my teammate and supervisors to ensure the success of the project.
@@ -15,4 +15,17 @@ This work was created during the initiation internship period and corresponds to
 Below, you can find a descriptive video showcasing the usage of this site.
 
 
-<video src="/assets/crud.mp4" controls></video>
+<div class="video-container">
+  <video src="/assets/crud.mp4" controls></video>
+</div>
+<style>
+.video-container {
+  max-width: 100%;
+  margin: auto;
+  text-align: right;
+}
+.video-container video {
+  max-width: 100%;
+  height: auto;
+}
+</style>
